@@ -51,7 +51,6 @@ ul{
 }
 .part2, .part4{
     width:50%;
-    
 }
 
 img{
@@ -64,6 +63,8 @@ h2{
     font-style: normal;
     margin-bottom: 20px;
     color:hsl(243, 87%, 12%) ;
+    width: 80%;
+    font-size:35px ;
 }
 
 p{
@@ -73,6 +74,17 @@ p{
     font-size: 16px;
     margin-bottom: 20px;
     color:hsl(243, 87%, 12%) ;
+    width: 70%;
+}
+
+#p-card{
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color:hsl(243, 87%, 12%) ;
+    width: 100%;
 }
 
 input{
@@ -94,9 +106,12 @@ button{
 
 ::placeholder{
     padding: 10px;
+    /*color: white;*/
 }
 
-main{
+
+/*partition-2*/
+.partition-2{
     background-color: hsl(240, 75%, 98%);
     background-image: url(images/bg-curve-desktop.svg);
     background-repeat: repeat-x;
@@ -105,7 +120,8 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    margin-bottom: 50px;
+    padding-top: 5%;
+    padding-bottom:100px;
     width: 95%;
     margin: auto;
 }
@@ -125,7 +141,7 @@ main{
 }
 
 .card{
-    width: 300px;
+    width: 350px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 30px;
     border-radius: 3px;
@@ -133,20 +149,83 @@ main{
 .founder-details{
     display: flex;
     align-items: center;
+    height: 50px;
 }
 #founder-image{
-    width: 40px;
+    width: 50px;
     border-radius: 50%;
+    height: 50px;
 }
 .title{
     padding: 10px;
+    line-height: 20px;
+    align-items: center;
 }
+    
 h4{
     font-family: "Raleway";
     font-weight: 700;
     font-style: normal;
-    color:hsl(243, 87%, 12%) ;
+    color:hsl(243, 87%, 12%);
 }
+
 .ceo{
     font-size: 10px;
+    margin: 0%;
+    width: 100%;
+}
+
+/*partition-3*/
+.partition-3{
+    background-color: hsl(238, 22%, 44%);
+}
+
+.section-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding-bottom:5%;
+    padding-top: 5%;
+    width: 95%;
+    margin: auto;
+}
+
+.part5{
+    width:50%;
+    margin: auto;
+}
+
+.part6{
+    width:50%;
+    padding-left: 30px;
+}
+
+h3{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#last-p{
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: white;
+    width: 70%;
+}
+
+#bottom-input{
+    color: white;
+    width: 70%;
+    height: 35px;
+    opacity: 50%;
+    border-radius: 3px;
+}
+
+#bottom-btn{
+    margin-top: 10px
 }
