@@ -229,3 +229,25 @@ h3{
 #bottom-btn{
     margin-top: 10px
 }
+/*footer*/
+
+footer{
+    background-color: hsl(243, 87%, 12%);
+}
+.section-4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding-bottom:5%;
+    padding-top: 5%;
+    width: 95%;
+    margin: auto;
+}
+
+.footer-div1{
+    color: white;
+}
+
+#p-footer1{
+    color: white;
+}
