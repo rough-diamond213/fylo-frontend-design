@@ -1,7 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
 }
 
 /*header-section*/
@@ -29,6 +29,11 @@
     justify-content: space-between;
     list-style: none;
     align-items: center;
+}
+
+.header-a{
+    text-decoration: none;
+    color:hsl(243, 87%, 12%) ;
 }
 
 /*body-section*/
@@ -82,7 +87,7 @@ input{
     border-radius: 3px;
 }
 
-button{
+#get,#bottom-btn{
     height: 35px;
     width: 25%;
     border: none;
@@ -90,6 +95,12 @@ button{
     color: white;
     border-radius: 3px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#get:hover, 
+#bottom-btn:hover{
+    background-color: hsl(224, 83%, 67%);
+    cursor: pointer;
 }
 
 ::placeholder{
@@ -100,10 +111,10 @@ button{
 
 /*partition-2*/
 .bg-image{
-  background-image: url('images/bg-curve-desktop.svg');
+  background-image: url(/images/bg-curve-desktop.svg);
   background-repeat: no-repeat; 
   background-size: cover;
-  background-position: center ;
+  background-position: top ;
 }
 .partition-2{
     background-color: hsl(240, 75%, 98%);
@@ -123,12 +134,15 @@ button{
 #see-how{
     display: flex;
     align-items: center;
-    text-decoration: underline;
     color: hsl(170, 45%, 43%);
+}
+
+#see-how:hover{
+    color: hsl(170, 82%, 78%);
+    cursor: pointer;
 }
 #arrow-icon{
     width: 20px;
-    padding-left: 10px;
 }
 #quote-icon{
     width: 20px;
@@ -242,6 +256,7 @@ footer{
     display: grid;
     grid-template-columns: repeat(4, 25%);
 }
+
 #footer-logo{
     width: 12%;
 }
@@ -289,11 +304,24 @@ footer{
     line-height:40px;
 }
 
-.footer-ul{
+.footer-ul, .footer-a{
     list-style: none;
+    text-decoration: none;
+    color: white;
 }
 
 #fb-icon, #twitter-icon, #gram-icon{
-    width: 30px;
+    width: 40px;
     padding-left: 15px;
+}
+
+.footer-a:hover{
+    color: hsl(224, 83%, 67%);
+    cursor: pointer;
+}
+
+#fb-icon:hover{
+    color: hsl(224, 83%, 67%);
+    cursor: pointer;
+    background-image: url("facebook.svg");
 }
