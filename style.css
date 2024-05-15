@@ -111,7 +111,7 @@ input{
 
 /*partition-2*/
 .bg-image{
-  background-image: url(/images/bg-curve-desktop.svg);
+  background-image: url('/images/bg-curve-desktop.svg');
   background-repeat: no-repeat; 
   background-size: cover;
   background-position: top ;
@@ -323,4 +323,144 @@ footer{
     color: hsl(224, 83%, 67%);
     cursor: pointer;
     background-image: url("facebook.svg");
+}
+
+
+@media (min-width:375px) and (max-width:1440px){
+    .logo{
+        width: 30%;
+        margin-right: 30px;
+    }
+
+    .attributes{
+        width: 60%;
+        margin-left: 30px;
+    }
+
+    .section1{
+        flex-direction: column-reverse;
+    }
+
+    .part1, .part2, .part3, .part5{
+        width: 100%;
+    }
+
+    h2{
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    p{
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    input{
+        width: 100%;
+    }
+
+    #get{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .bg-image{
+        background-image: url("images/bg-curve-mobile.svg");
+        background-repeat: no-repeat; 
+        background-size: cover;
+        background-position: top ;
+
+    }
+    .section-2{
+    flex-direction: column-reverse;
+    }
+
+    .part4{
+        width: 100%;
+        padding-bottom: 70px;
+    }
+
+    #see-how{
+        justify-content: center;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .section-3{
+        flex-direction: column;
+    }
+
+    h3{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #last-p{
+        width: 90%;
+        margin: auto;
+    }
+    .part6{
+        width: 100%;
+        padding-left:0%;
+    }
+
+    #bottom-input{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #bottom-btn{
+        width: 100%;
+    }
+
+    #footer-logo{
+        width: 50%;
+        padding-top: 40px;
+    }
+
+    .second-section-footer{
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        width: 100%;
+    }
+
+    .footer-div1{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    #p-phone, #p-email{
+        text-align: left;
+    }
+
+    #email-icon, #phone-icon{
+        width: 25px;
+        padding-right: 10px;
+    }
+
+    
+.footer-div2{
+    justify-content: left;
+}
+
+.footer-div3{
+    justify-content: left;
+    margin-top: 15px;
+}
+
+.footer-div4{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    padding-top: 35px;
+}
+
+
+
+
+
 }
