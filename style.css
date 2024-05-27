@@ -111,15 +111,14 @@ input{
 
 /*partition-2*/
 .bg-image{
-  background-image: url('/images/bg-curve-desktop.svg');
-  background-repeat: no-repeat; 
-  background-size: cover;
-  background-position: top ;
+    background-image: url('./images/logo.svg') no-repeat top;
+    background-size: cover;
+    background-position: top;
 }
 .partition-2{
     background-color: hsl(240, 75%, 98%);
     background-repeat: repeat-x;
-    margin-top: none;
+    margin-top: 0;
 }
 .section-2{
     display: flex;
@@ -367,10 +366,10 @@ footer{
     }
 
     .bg-image{
-        background-image: url("images/bg-curve-mobile.svg");
-        background-repeat: no-repeat; 
+        background-image: url("./images/bg-curve-mobile.svg");
+        background-repeat: repeat-x; 
         background-size: cover;
-        background-position: top ;
+        /*background-position: top ;*/
 
     }
     .section-2{
