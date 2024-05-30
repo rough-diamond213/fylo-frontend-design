@@ -14,7 +14,7 @@
     font-weight: 400, 700;
     font-style: normal;
     height: 40px;
-    padding-top: 40px;
+    padding-top: 60px;
     padding-bottom: 60px;
     width: 90%;
     margin: auto;
@@ -114,9 +114,7 @@ input{
     background-image: url('./images/bg-curve-desktop.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
-    background-attachment: fixed;
-    background-color: hsl(240, 75%, 98%);
+    background-position: center;
 }
 .section-2{
     display: flex;
@@ -363,16 +361,15 @@ footer{
         margin-top: 15px;
     }
 
-    .bg-image{
-        background-image: url("./images/bg-curve-mobile.svg");
-        background-repeat:no-repeat; 
+    .partition-2{
+        background-image:url('/images/bg-curve-mobile.svg');
+        background-repeat: no-repeat;
         background-size: cover;
-        background-attachment: fixed;
-        background-position: top ;
-
+        background-position: center;
     }
     .section-2{
     flex-direction: column-reverse;
+    padding-top: 20%;
     }
 
     .part4{
