@@ -124,7 +124,7 @@
             id="bottom-input"
           />
           <br>
-          <small>Please check your email</small>
+          <small class="error-msg">Please check your email</small>
           <br />
           <button id="bottom-btn">Get Started For Free</button>
         </form>
@@ -201,6 +201,7 @@
       const inputTest = document.querySelector('#input_test');
       const btn1 = document.querySelector('#getbtn');
       const errorMsg = document.querySelectorAll('.error-msg');
+      const bottomInput = document.querySelector('#bottom-input');
 
       console.log(form1, form2, inputTest, btn1)
 
@@ -208,9 +209,34 @@
         e.preventDefault();
 
         const iTest = inputTest.value;
+
+        if (!validateEmail(iTest) || iTest === ''){
+          inputTest.classList.add('error');
+        } else {
+          inputTest.classList.remove('error')
+        }
       
         if (!validateEmail(iTest) || iTest === ''){
           errorMsg[0].classList.add('error');
+        } else {
+          errorMsg.classList.remove('error')
+        }
+        
+      } )
+
+      form2.addEventListener( 'submit', (e)=>{
+        e.preventDefault();
+
+        const iTest = inputTest.value;
+
+        if (!validateEmail(iTest) || iTest === ''){
+          bottomInput.classList.add('error');
+        } else {
+          bottomInput.classList.remove('error')
+        }
+      
+        if (!validateEmail(iTest) || iTest === ''){
+          errorMsg[1].classList.add('error');
         } else {
           errorMsg.classList.remove('error')
         }
