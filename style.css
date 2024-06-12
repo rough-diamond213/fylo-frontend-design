@@ -80,11 +80,15 @@ p{
     width: 100%;
 }
 
-input{
+#input_test{
     width: 40%;
     height: 35px;
     opacity: 50%;
     border-radius: 3px;
+}
+
+#input_test.error{
+    border: red 1px solid;
 }
 
 #getbtn,#bottom-btn{
@@ -238,6 +242,10 @@ h3{
     opacity: 70%;
     border-radius: 3px;
     border: none;
+}
+
+#bottom-input.error{
+    border: red 1px solid;
 }
 
 #bottom-btn{
