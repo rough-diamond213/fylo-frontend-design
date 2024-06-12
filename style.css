@@ -87,7 +87,7 @@ input{
     border-radius: 3px;
 }
 
-#get,#bottom-btn{
+#getbtn,#bottom-btn{
     height: 35px;
     width: 25%;
     border: none;
@@ -97,7 +97,17 @@ input{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#get:hover, 
+.error-msg{
+    color: red;
+    font-family: "Raleway";
+    visibility: hidden;
+}
+
+.error-msg.error{
+    visibility: visible;
+    border: red;
+}
+#getbtn:hover, 
 #bottom-btn:hover{
     background-color: hsl(224, 83%, 67%);
     cursor: pointer;
