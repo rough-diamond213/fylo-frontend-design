@@ -370,11 +370,11 @@ footer{
         text-align: center;
     }
 
-    input{
+    #input_test{
         width: 100%;
     }
 
-    #get{
+    #getbtn{
         width: 100%;
         margin-top: 15px;
     }
