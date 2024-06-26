@@ -45,11 +45,8 @@
     width: 90%;
     margin: auto;
 }
-.part1{
-    width: 50%;
-}
-.part2, .part4{
-    width:50%;
+.part1, .part2, .part3, .part4{
+    flex: 1;
 }
 
 img{
