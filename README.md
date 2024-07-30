@@ -11,10 +11,7 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 -   This project is great if you're starting to get confident with slightly more complex layouts. The second section with the testimonial area will provide a nice challenge.
